@@ -1,0 +1,34 @@
+package Gherkins;
+
+import org.apache.commons.lang3.RandomStringUtils;
+import org.testng.annotations.Test;
+
+import io.restassured.RestAssured;
+import io.restassured.response.Response;
+
+public class Register_postman
+{
+	String email;
+	@Test
+	public void create()
+	{
+		String random = RandomStringUtils.randomAlphanumeric(5);
+		email="Devika"+random+"@gmail.com";
+		Response res = RestAssured.given().baseUri("https://www.shoppersstack.com/shopping").
+		body("{\r\n"
+				+ "  \"city\": \"Bangalore\",\r\n"
+				+ "  \"country\": \"India\",\r\n"
+				+ "  \"email\": \""+email+"\",\r\n"
+				+ "  \"firstName\": \"Madhu\",\r\n"
+				+ "  \"gender\": \"FEMALE\",\r\n"
+				+ "  \"lastName\": \"Madhusudhankumar\",\r\n"
+				+ "  \"password\": \"Dev#123\",\r\n"
+				+ "  \"phone\": 9863878937,\r\n"
+				+ "  \"state\": \"karnataka\",\r\n"
+				+ "  \"zoneId\": \"ALPHA\"\r\n"
+				+ "}").contentType("application/json").when().post("/shoppers").then().statusCode(201).extract().response();
+		System.out.println(res.asPrettyString());
+		System.out.println("create method is pass");
+		
+}
+}

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-11T10:20:54Z" name="Default suite" finished-at="2025-02-11T10:20:54Z" duration-ms="133">
+    <groups>
+    </groups>
+    <test started-at="2025-02-11T10:20:54Z" name="Default test" finished-at="2025-02-11T10:20:54Z" duration-ms="133">
+      <class name="practice.testng.createcontact_Dp_test">
+        <test-method signature="createContactTest(java.lang.String, java.lang.String, long)[pri:0, instance:practice.testng.createcontact_Dp_test@1b75c2e3]" started-at="2025-02-11T10:20:54Z" name="createContactTest" data-provider="getData" finished-at="2025-02-11T10:20:54Z" duration-ms="52" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Devika]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9867564536]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactTest -->
+        <test-method signature="createContactTest(java.lang.String, java.lang.String, long)[pri:0, instance:practice.testng.createcontact_Dp_test@1b75c2e3]" started-at="2025-02-11T10:20:54Z" name="createContactTest" data-provider="getData" finished-at="2025-02-11T10:20:54Z" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sh]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[986757536]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactTest -->
+        <test-method signature="createContactTest(java.lang.String, java.lang.String, long)[pri:0, instance:practice.testng.createcontact_Dp_test@1b75c2e3]" started-at="2025-02-11T10:20:54Z" name="createContactTest" data-provider="getData" finished-at="2025-02-11T10:20:54Z" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jhon]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Steve]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9867564678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactTest -->
+      </class> <!-- practice.testng.createcontact_Dp_test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
